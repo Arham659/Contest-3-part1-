@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <style>
+     * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    position: absolute;
+    margin-top: -46px;
+    width: 357px;
+    height: 60px;
+    margin-left: 350px;
+    /* border: 2px solid black; */
+    font-size: 24px;
+    padding: 2px;
+  }
+  .container {
+
+    width: 57%;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-rows: 130px 130px 130px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 25px;
+  }
+  /* .box {
+    border: 2px solid black;
+    background-color: blue;
+  } */
+  #item-1 {
+    grid-row: 1 / span 2;
+  }
+
+  #item-7 {
+    grid-column: 2 / span 2;
+  }
+  #img1 {
+    width: 403px;
+    height: 271px;
+  }
+
+  #img2 {
+    width: 201px;
+    height: 125px;
+  }
+  #img3 {
+    width: 201px;
+    height: 125px;
+  }
+  #img4 {
+    width: 201px;
+    height: 126px;
+  }
+  #img5 {
+    width: 201px;
+    height: 125px;
+  }
+  #img6 {
+    width: 404px;
+    height: 128px;
+  }
+  #img7 {
+    width: 422px;
+    height: 127px;
+  }
+  b{
+    position: absolute;
+    /* background: black ; */
+    color:black;
+    font-size: 25px;
+    margin-left: 680px ;
+    margin-top: 375px ;
+    z-index: 1 ;
+  }
+    </style>
+  </head>
+
+  <body>
+    <div class="header"><h1>Gallery</h1></div>
+    <div class="container">
+      <div class="box" id="item-1">
+        <img
+          src="https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?cs=srgb&dl=pexels-pixabay-147411.jpg&fm=jpg"
+          alt=""
+          id="img1"
+        />
+      </div>
+      <div class="box" id="item-2">
+        <img
+          src="https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt=""
+          id="img2"
+        />
+      </div>
+      <div class="box" id="item-3">
+        <img
+          src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+          alt=""
+          id="img3"
+        />
+      </div>
+      <div class="box" id="item-4">
+        <img
+          src="https://cdn.mos.cms.futurecdn.net/CAZ6JXi6huSuN4QGE627NR.jpg"
+          alt=""
+          id="img4"
+        />
+      </div>
+      <div class="box" id="item-5">
+        <img
+          src="https://thumbs.dreamstime.com/b/woman-praying-free-bird-enjoying-nature-sunset-background-hope-concept-94227839.jpg"
+          alt=""
+          id="img5"
+        />
+      </div>
+      <div class="box" id="item-6">
+        <img
+          src="https://thumbs.dreamstime.com/b/sun-rays-mountain-landscape-5721010.jpg"
+          alt=""
+          id="img6"
+        />
+      </div>
+      <div class="box" id="item-7">
+        <img
+          src="https://t3.ftcdn.net/jpg/03/15/34/90/360_F_315349043_6ohfFyx37AFusCKZtGQtJR0jqUxhb25Y.jpg"
+          alt=""
+          id="img7"
+        />
+       
+      </div>
+      <b>Read More...</b>
+    </div>
+    
+  </body>
+</html>
